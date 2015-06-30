@@ -1,0 +1,140 @@
+# Default application configuration that all configurations inherit from.
+linters:
+
+    # Indentacao padrao de 4 espaços
+    Indentation:
+        enabled: true
+        width: 4
+
+    # Usar aspas duplas para strings
+    StringQuotes:
+        enabled: true
+        style: double_quotes # or single_quotes
+
+    # Espaco antes do "{"
+    SpaceBeforeBrace:
+        enabled: true
+
+    # Variaveis de cores
+    ColorVariable:
+        enabled: false
+
+    # Inibe o uso do !important
+    ImportantRule:
+        enabled: false
+
+    # Linha no fim do arquivo
+    FinalNewline:
+        enabled: false
+
+    # TODO: REABILITAR ISSO DAQUI
+    # Indica mixins do compass
+    Compass::*:
+        enabled: false
+
+    # Utilizar .9 a 0.9
+    LeadingZero:
+        enabled: true
+
+    # Um seletor por linha
+    SingleLinePerSelector:
+        enabled: true
+
+    # Utilizar 0 a 0px
+    ZeroUnit:
+        enabled: true
+
+    # Espaço depois da virgula
+    SpaceAfterComma:
+        enabled: true
+
+    # Sei lá, ta aí
+    # Não funciona por algum motivo obscuro
+    TrailingSemicolonAfterPropertyValue:
+        enabled: true
+
+    # Isso aqui vai para nao dar pau no lint com as classes do scrollbar
+    SelectorFormat:
+        enabled: true
+
+    # Inativos
+    BorderZero:
+        enabled: false
+
+    CapitalizationInSelector:
+        enabled: false
+
+    ColorKeyword:
+        enabled: false
+
+    Comment:
+        enabled: false
+
+    DebugStatement:
+        enabled: false
+
+    DeclarationOrder:
+        enabled: false
+
+    DuplicateProperty:
+        enabled: false
+
+    EmptyLineBetweenBlocks:
+        enabled: false
+
+    EmptyRule:
+        enabled: false
+
+    HexFormat:
+        enabled: false
+
+    IdSelector:
+        enabled: false
+
+    IdWithExtraneousSelector:
+        enabled: false
+
+    NameFormat:
+        enabled: false
+
+    PlaceholderInExtend:
+        enabled: false
+
+    PropertySortOrder:
+        enabled: false
+
+    PropertySpelling:
+        enabled: false
+        extra_properties: []
+
+    SelectorDepth:
+        enabled: false
+        max_depth: 3
+
+    NestingDepth:
+        enabled: false
+
+    QualifyingElement:
+        enabled: false
+
+    VendorPrefixes:
+        enabled: false
+
+    SelectorFormat:
+        enabled: false
+
+    Shorthand:
+        enabled: false
+
+    SpaceAfterPropertyColon:
+        enabled: false
+
+    SpaceAfterPropertyName:
+        enabled: false
+
+    SpaceBetweenParens:
+        enabled: false
+        spaces: 0
+
+    UrlQuotes:
+        enabled: false

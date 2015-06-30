@@ -1,0 +1,20 @@
+{
+  "name": "srtool",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dineshTrivedi/srtool",
+  "authors": [
+    "Dinesh <dinesh.dart@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "compass-mixins": "~1.0.2",
+    "normalize.css": "~3.0.3"
+  }
+}

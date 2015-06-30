@@ -1,0 +1,9 @@
+$color-orange: #e67e22;
+$color-white: #fff;
+$color-black: #000;
+$color-red: #ea3f3f;
+$color-green: #0f8a0f;
+$color-green-dark: darken($color-green, 20%);
+$color-red-dark: darken($color-red, 20%);
+$color-green-saturate: saturate($color-green, 20%);
+$color-red-saturate: saturate($color-red, 20%);

@@ -1,7 +1,6 @@
 # srtool
 Ferramenta de edição de tempo em legendas no formato srt
 
-
 ## 1 - Passos seguintes -> Arquitetura css
 
 * Definição de paleta de cores;
@@ -28,3 +27,48 @@ Ferramenta de edição de tempo em legendas no formato srt
 
 ## 2. Passos seguintes -> Angular 
 Aqui é com você, Dinesh!
+
+## 3. Config
+
+Configurando ambiente de desenvolvimento.
+
+### Sass
+
+sudo su -c "gem install sass"
+
+### Grunt
+
+Primeiro instalar o grunt-cli: sudo npm install -g grunt-cli
+
+Grunt local: npm install grunt --save-dev
+
+### Grunt Sass
+
+npm install grunt-contrib-sass --save-dev
+
+### Grunt Watch
+
+npm install grunt-contrib-watch --save-dev
+
+### Grunt Scss-lint
+
+sudo gem update
+sudo gem install scss_lint
+npm install grunt-scss-lint --save-dev
+
+### Colors
+
+https://flatuicolors.com/
+
+### Bower
+
+sudo npm install -g bower
+bower init
+
+### Compass-mixins
+
+bower install compass-mixins --save
+
+### Normalize.css
+
+bower install normalize.css --save

@@ -1,0 +1,16 @@
+.btn {
+    @include border-radius(3px);
+    display: inline-block;
+    height: 24px;
+    padding: 0 8px;
+    color: $color-white;
+    border: 0;
+
+    &.btn-add {
+        @include generate-button($color-green);
+    }
+
+    &.btn-minus {
+        @include generate-button($color-red);      
+    }  
+}

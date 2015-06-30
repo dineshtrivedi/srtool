@@ -1,2 +1,6 @@
 .sass-cache
 *.css.map
+node_modules/
+bower_components/
+scss-lint-report.xml
+css/
