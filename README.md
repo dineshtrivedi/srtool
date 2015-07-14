@@ -7,6 +7,7 @@ Ferramenta de edição de tempo em legendas no formato srt
 * Definição de breakpoints;
 * Definição de função para espaçamento;
 * *Adicionar box-sizing:border-box como padrão*;
+* Usando sass maps para criar um sistema de grids simplificado;
 * Componente de input de formulário;
 * Componente de botões (estados: botão mais e botão menos);
 * Componente de cabeçalho;
